@@ -213,13 +213,13 @@
 <body>
     <div class="container">
         <header>
-            <h1>Словарь сложных слов</h1>
-            <p class="description">Прослушайте произношение сложных английских слов из текстов о вакцинации. Нажмите на кнопку "Произношение" для прослушивания.</p>
+            <h1>New words dictionary</h1>
+            <p class="description">Press play for listening</p>
         </header>
         
         <div class="controls">
             <div class="search-container">
-                <input type="text" id="search" placeholder="Поиск слова или перевода...">
+                <input type="text" id="search" placeholder="Serch word or translate...">
             </div>
             
             <div class="filter-buttons">
@@ -243,7 +243,7 @@
         </div>
         
         <footer>
-            <p>Создано для изучения сложных слов из текстов о вакцинации</p>
+            <p>create for learning</p>
         </footer>
     </div>
 
@@ -353,7 +353,7 @@
                     <div class="word">${item.word}</div>
                     <div class="translation">${item.translation}</div>
                     <button class="audio-btn" onclick="speakWord('${item.word.replace(/'/g, "\\'")}')">
-                        <span class="icon">🔊</span> Произношение
+                        <span class="icon">🔊</span> Play
                     </button>
                     <div class="category">${item.category}</div>
                 `;
